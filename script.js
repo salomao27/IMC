@@ -27,7 +27,7 @@ function verificaCategoria(imc){
     }else if(imc == 18.50 || imc < 24.99){
         categoria.innerHTML= "Peso Adequado";
     }else if(imc == 25 || imc < 29.99){
-        categoria.innerHTML= "SobrePeso";
+        categoria.innerHTML= "Sobrepeso";
     }else if(imc ==30 || imc < 34.99){
         categoria.innerHTML= "Obesidade(grau I)";
     }else if(imc ==35 || imc < 39.99){

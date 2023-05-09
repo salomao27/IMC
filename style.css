@@ -15,17 +15,19 @@
     width: 100vw;
     background-image: url("background.jpg");
     background-position: center;
+    
 }
 .header{
     padding-top: 3%;
     padding-bottom: 1.5%;
 }
 .main{
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: aliceblue;
     width: 50%;
-    height: 60vh;
+    height: 65%;
     text-align: center;
+    
 }
 input{
     height: 3vh;
@@ -36,7 +38,52 @@ input{
 }
 .content{
    font-size: 25px;
+   padding-bottom: 3%;
+}
+#resultado{
+    padding-top: 3%;
+}
+button{
+    border-radius: 4px;
+    height: 1.5vw;
+    width: 6vw;
 }
 input:hover{
     background-color: aliceblue;
+}
+button{
+    height:5vh;
+    width:10vw;
+}
+input{
+    height:5vh;
+    width:7vw;
+}
+@media screen and (max-width:768px){
+    .main{
+        font-size: 19px;
+        width: 80%;
+        height: 52%;
+    }
+    .content{
+        font-size: 23px;
+        padding:20px;
+    }
+    .header{
+        font-size:15px;
+    }
+    input{
+        height:5vh;
+        width:30vw;
+    }
+    button{
+        height:5vh;
+        width:30vw;
+    }
+    .container{
+        background-image: url("background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
 }
